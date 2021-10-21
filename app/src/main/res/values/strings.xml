@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerViewApplication</string>
+    <string name="add">Adicionar</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_description">Digite a descrição</string>
+    <string name="add_title">Digite o nome do item</string>
+</resources>
