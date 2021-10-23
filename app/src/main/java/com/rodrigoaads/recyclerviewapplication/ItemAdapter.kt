@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.item_list.view.*
 
 class ItemAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    val items : List<ItemModel> = itemRepository
+    val items : List<ItemModel> = ItemList.itemRepository
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return ItemViewHolder(

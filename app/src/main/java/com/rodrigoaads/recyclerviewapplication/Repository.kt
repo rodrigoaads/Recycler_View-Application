@@ -1,9 +1,12 @@
 package com.rodrigoaads.recyclerviewapplication
 
-val itemRepository = mutableListOf<ItemModel>()
+
+object ItemList {
+    val itemRepository = mutableListOf<ItemModel>()
+}
 
 class Repository {
     fun createItem(itemModel: ItemModel){
-        itemRepository.add(itemModel)
+        ItemList.itemRepository.add(itemModel)
     }
 }
